@@ -51,7 +51,7 @@ li a {
   text-decoration: none;
   text-align: center;
 }
-a:hover {
+li a:hover {
   background: rgb(249, 220, 239);
   text-decoration-style: solid rgb(17, 31, 60);
   box-shadow: 0px 8px 16px 0px;
@@ -59,12 +59,17 @@ a:hover {
 }
 .container {
   width: 30%;
-  height: 30vh;
+  height: 40vh;
   border: 2px solid black;
   text-align: center;
   border-radius: 5px;
   margin: 0 auto;
   margin-top: 10%;
+  box-shadow: 0 4rem 4rem -2rem hsl(300, 34%, 17%);
+}
+.container:hover{
+  background: linear-gradient(to left, rgb(249, 220, 239), rgb(229, 220, 216));
+  border-bottom: 5px solid black;
 }
 .container h4 {
   font-style: italic;
@@ -78,9 +83,37 @@ a:hover {
   border-bottom: 1px solid black;
 
 }
-.cointainer p{
-    font-size: 3vh;
+.container p{
+    font-size: 2.5vh;
     text-align: center;
-    font-weight: bold;
     line-height: 1.6;
+    color: darkred;
+}
+.buttons>a>.agree{
+    background: linear-gradient(to bottom, hsl(200, 100%, 30%), hsl(200, 100%, 20%));
+    border-color:black; 
+    border-radius: 2rem;
+    padding: 10px;
+    width: 40%;
+    color: white;
+    font-size: 3vh;
+    font-weight: bold;
+}
+.buttons>a>.dis{
+  background: linear-gradient(to right, hsl(0, 0%, 3%), hsl(315, 100%, 20%));
+  border-color:black; 
+  border-radius: 2rem;
+  padding: 10px;
+  width: 40%;
+  color: white;
+  font-size: 3vh;
+  font-weight: bold;
+}
+.buttons a .agree:hover{
+  color: brown;
+  font-size: 4vh;
+}
+.buttons .dis:hover{
+  color: brown;
+  font-size: 4vh;
 }
