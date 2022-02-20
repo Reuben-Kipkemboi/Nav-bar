@@ -29,8 +29,16 @@ body{
   display: block;
   padding: 5px;
   }
+  .logo>a{
+    color: rgb(17, 31, 60);
+    text-decoration: none;
+    font-size: 4vh;
+    text-transform: uppercase;
+    font-weight: bolder;
+    cursor: pointer;               
+}
   li a{
-    color: blue;
+    color: rgb(17, 31, 60);
     display: inline-block;
     font-size: 3vh;
     text-transform: uppercase;
@@ -39,6 +47,11 @@ body{
     text-decoration: none;
     text-align: center;
 }
+a:hover{ 
+    background: black;
+    text-decoration: overline underline;
+    text-decoration-style: solid;
+} 
 
 
 /* body{
