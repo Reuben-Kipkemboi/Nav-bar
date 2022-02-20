@@ -24,10 +24,13 @@ body{
   }
   .service:hover .span{
     display: block;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   }
   .span>a{
   display: block;
   padding: 5px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  border-bottom: 1px solid rgb(209, 78, 136);
   }
   .logo>a{
     color: rgb(17, 31, 60);
@@ -48,10 +51,12 @@ body{
     text-align: center;
 }
 a:hover{ 
-    background: black;
-    text-decoration: overline underline;
-    text-decoration-style: solid;
+    background: rgb(249, 220, 239);
+    text-decoration-style: solid rgb(17, 31, 60);
+    box-shadow: 0px 8px 16px 0px ;
+    border-bottom: 2px solid rgb(209, 78, 136);
 } 
+
 
 
 /* body{
@@ -118,39 +123,6 @@ span{
 } */
 
 
-/* .logo>a{
-    color: lawngreen;
-    text-decoration: none;
-    font-size: 4vh;
-    text-transform: uppercase;
-    font-weight: bolder;
-    cursor: pointer;               
-}
-nav{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-}
-ul{
-    list-style: none;
-}
-ul li{
-    display: inline-block;
-}
- li a{
-    color: lawngreen;
-    display: inline-block;
-    font-size: 3vh;
-    text-transform: uppercase;
-    font-weight: bold;
-    padding: 20px;
-    text-decoration: none;
-    text-align: center;
-}
-a:hover{ 
-    background: black;
-    text-decoration: overline underline;
-    text-decoration-style: solid;
-} */
+
 
   
