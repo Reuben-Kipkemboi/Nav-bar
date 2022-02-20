@@ -29,6 +29,16 @@ body{
   display: block;
   padding: 5px;
   }
+  li a{
+    color: blue;
+    display: inline-block;
+    font-size: 3vh;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 20px;
+    text-decoration: none;
+    text-align: center;
+}
 
 
 /* body{
