@@ -73,7 +73,7 @@ li a:hover {
 }
 .container h4 {
   font-style: italic;
-  font-size: larger;
+  font-size: large;
   font-weight: bold;
   color: white;
   text-shadow: 0 0 0.375rem rgb(17, 31, 60);
@@ -82,6 +82,10 @@ li a:hover {
   margin-top: -0.1%;
   border-bottom: 1px solid black;
 
+}
+.container>h4:hover{
+  color: brown;
+  text-transform: uppercase;
 }
 .container p{
     font-size: 2.5vh;
