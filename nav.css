@@ -1,0 +1,133 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+  }
+  nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .menu ul li{
+    display: inline-block;
+  }li a{
+    text-decoration: none;
+    padding: 20px;
+  }
+  .service{
+    display: inline-block;
+    position: relative;
+  }
+  .span{
+    display: none;
+    position: absolute;
+    width: 200%;
+    overflow: hidden;
+  }
+  .service:hover .span{
+    display: block;
+  }
+  .span>a{
+  display: block;
+  padding: 5px;
+  }
+
+
+/* body{
+    /* font-family: 'ABeeZee', sans-serif;  
+    font-family: 'Montserrat', sans-serif;
+}
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.logo>a{
+    color: lawngreen;
+    text-decoration: none;
+    font-size: 4vh;
+    text-transform: uppercase;
+    font-weight: bolder;
+    cursor: pointer;               
+}
+.menu ul li{ 
+    display: inline-block;   
+}
+li a{
+    color: lawngreen;
+    display: inline-block;
+    font-size: 3vh;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 20px;
+    text-decoration: none;
+    text-align: center;
+}
+a:hover{ 
+    background: black;
+    text-decoration: overline underline;
+    text-decoration-style: solid;
+} 
+span{
+    display: inline-block;
+    position: relative;
+}
+.btn{
+    cursor: pointer;
+    border: none;
+}
+.service{
+    display: none   ;
+  width: 250px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  position: absolute;
+  background-color: white;
+}
+.service a{
+    display: block;
+    padding: 10px;
+    color: chartreuse;
+    font-size: 3vh;
+}
+
+/* nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+} */
+
+
+/* .logo>a{
+    color: lawngreen;
+    text-decoration: none;
+    font-size: 4vh;
+    text-transform: uppercase;
+    font-weight: bolder;
+    cursor: pointer;               
+}
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+ul{
+    list-style: none;
+}
+ul li{
+    display: inline-block;
+}
+ li a{
+    color: lawngreen;
+    display: inline-block;
+    font-size: 3vh;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 20px;
+    text-decoration: none;
+    text-align: center;
+}
+a:hover{ 
+    background: black;
+    text-decoration: overline underline;
+    text-decoration-style: solid;
+} */
+
+  
